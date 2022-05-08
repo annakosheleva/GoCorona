@@ -1,3 +1,7 @@
+
+
+
+
 *,
 *::before,
 *::after {
@@ -28,12 +32,71 @@ h6 {
 }
 html,
 body {
-    height: 100px;
+    height: 100%;
     line-height: 1;
 }
 body {
+    font-family: Rubik;
+    font-size: 12px;
+    color: #616161;
 }
 /*-------------------------------------*/
 .wrapper {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
 }
 /*-------------------------------------*/
+
+.main {
+    flex: 1 1 auto;
+}
+
+[class*="__container"] {
+    max-width: 1057px;
+    margin: 0px auto;
+}
+
+.header {
+
+}
+.header__container {
+    display: flex;
+}
+.header__logo {
+
+}
+.header__menu {
+    flex: 1 1 auto;
+}
+.header__button {
+    flex: 0 0 252px;
+    display: flex;
+    justify-content: flex-end;
+}
+.menu {
+    display: flex;
+    justify-content: flex-end;
+}
+.menu__list {
+
+
+}
+.menu__item {
+
+
+}
+.menu__link {
+
+
+}
+
+.button {
+
+
+}
+.button_blue {
+
+
+}
